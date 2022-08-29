@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+.sexy_bg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+._bg{
+  background: #ff9966;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.fucia{
+    background: #ff5e62;
+}
+
+.center_div{
+  margin: auto;
+}
+
+.no_margin{
+    margin: 0;
+}
+
+.my_card {
+    background: #fff;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    width: 400px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 3px;
+  }
+
+  .basic_card {
+    background: #fff;
+    padding: 20px 30px 20px 30px;
+    border-radius: 3px;
+  }
+
+
+  .grad_top_card {
+    position: relative;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 5px 0 0 0;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .grad_top_card .basic_card {
+    background: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+  }
+  ._title{
+    font-size: 20px;
+    color: #3F3E3E;
+    font-weight: 150;
+    padding: 10px 10px 0px 10px;
+    margin: 0;
+  }
+  ._caption{
+    font-size: 15px;
+    color: #666565;
+    font-weight: 100;
+    padding: 18px 10px 0px 10px;
+    margin: 0;
+  }
+  ._date{
+    font-size: 15px;
+    color: #666565;
+    font-weight: 100;
+    padding: 5px 10px 0px 10px;
+    margin: 0;
+  }
+  
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+
+    .my_card {
+        background: #fff;
+        display: inline-block;
+        margin: 1rem;
+        position: relative;
+        width: 400px;
+        padding: 20px 30px 20px 30px;
+        border-radius: 3px;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+    /* phones */
+
+    .my_card {
+        background: #fff;
+        display: inline-block;
+        margin: 1rem;
+        position: relative;
+        width: 400px;
+        padding: 20px 30px 20px 30px;
+        border-radius: 3px;
+      }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    /* portrait phones */
+    .my_card {
+        background: #fff;
+        display: inline-block;
+        margin: 1rem;
+        position: relative;
+        width: 400px;
+        padding: 20px 30px 5px 30px;
+        border-radius: 3px;
+      }
+}
+
+.main_logo{
+  position: absolute;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #FFF;
+}
+
+.card_title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #3F3E3E;
+}
+
+.bcard_title{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #3F3E3E;
+  margin: auto;
+}
+
+.small_line{
+    margin: 0px 0 50px 0;
+    width:30px;
+    height:6px;
+    background-color:#ff5e62;
+    border:0;
+    text-align:left;
+}
+
+._small_line{
+  margin: 0px 0 30px 0;
+  width:30px;
+  height:6px;
+  background-color:#ff5e62;
+  border:0;
+  text-align:left;
+}
+
+.divider{
+  background: #eeeeee;
+  height: 1px;
+  
+}
+
+
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-2 {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+  .card-3 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  
+  .card-4 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  .card-5 {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  }
+
+
+  .circle-text{
+    border-radius: 50px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .custom-select {
+    border-bottom: 2px solid #CCC;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    color: #666;
+  }
+  
+  .m20bottom{
+    margin-bottom: 20px;
+  }
+  .m10bottom{
+    margin-bottom: 10px;
+  }
+  .m10top{
+    margin-top: 10px;
+  }
+  .m20top{
+    margin-top: 20px;
+  }
+
+  .m20left{
+    margin-left: 20px;
+  }
+  .m30left{
+    margin-left: 30px;
+  }
+  .m20right{
+    margin-right: 20px;
+  }
+  .m10right{
+    margin-right: 10px;
+  }
+  .m0{
+    margin: 0;
+  }
+
+  .m0top{
+    margin-top: 0px;
+  }
+  .m0b{
+    margin-bottom: 0;
+  }
+  .m10{
+    margin: 10px 10px 10px 10px;
+  }
+
+  .pad0{
+      padding: 0px;
+  }
+
+  .p0{
+    padding: 0px;
+  }
+
+  .pad5{
+    padding: 5px;
+  }
+
+  .pad10{
+    padding: 10px;
+  }
+  .pad20{
+    padding: 20px;
+  }
+
+.pad20bottom{
+  padding-bottom: 20px;
+}
+
+  .full-height{
+    height: 100vh;
+  }
+
+  .fixed-nav{
+    position: fixed;
+    overflow: x;
+  }
+  
